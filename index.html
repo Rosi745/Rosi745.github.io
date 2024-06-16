@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melon Premium - Produk</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Warna latar belakang tema Buah Melon */
+            color: #333; /* Warna teks */
+            padding: 20px;
+        }
+
+        header {
+            background-color: #7EC850; /* Hijau segar untuk header */
+            color: #fff; /* Putih untuk teks */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; /* Putih untuk teks */
+            text-decoration: none;
+        }
+
+        section.produk {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .produk-item {
+            background-color: #ffffff; /* Warna latar belakang item produk */
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .produk-item img {
+            max-width: 100%;
+        }
+
+        .produk-item h3 {
+            margin-top: 10px;
+        }
+
+        .produk-item p {
+            margin-bottom: 10px;
+        }
+
+        .produk-item .aksi {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .produk-item button {
+            background-color: #000000; /* Warna latar belakang tombol beli */
+            color: #fff; /* Putih untuk teks */
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .produk-item button:hover {
+            background-color: #333333; /* Warna latar belakang tombol beli saat dihover */
+        }
+
+        .produk-item .btn-keranjang {
+            display: flex;
+            align-items: center;
+            background-color: #4CAF50; /* Warna latar belakang tombol keranjang */
+            color: #fff; /* Putih untuk teks */
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .produk-item .btn-keranjang img {
+            max-width: 20px;
+            margin-right: 10px;
+        }
+
+        .produk-item .btn-keranjang:hover {
+            background-color: #45a049; /* Warna latar belakang tombol keranjang saat dihover */
+        }
+
+        .kontak {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f9f9f9; /* Warna latar belakang bagian kontak */
+        }
+
+        .kontak h2 {
+            color: #333; /* Warna teks judul kontak */
+        }
+
+        .kontak p {
+            margin-bottom: 20px;
+        }
+
+        .kontak ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .kontak ul li {
+            margin-bottom: 10px;
+        }
+
+        .kontak ul li a {
+            color: #333; /* Warna teks link kontak */
+            text-decoration: none;
+        }
+
+        .kontak ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333; /* Warna latar belakang footer */
+            color: #fff; /* Putih untuk teks */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Melon Premium</h1>
+        <!-- Navigasi menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="produk">
+        <h2>Kualitas Premium</h2>
+        <!-- Satu produk -->
+        <div class="produk-item">
+            <img src="produk1.jpg" alt="Produk 1">
+            <h3>Honey Globe</h3>
+            <p>Rp30.000/Kg</p>
+            <div class="aksi">
+                <button>Beli Sekarang</button>
+                <button class="btn-keranjang">
+                    <img src="cart-icon.png" alt="Keranjang" /> Tambah ke Keranjang
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau memerlukan bantuan, jangan ragu untuk menghubungi kami.</p>
+        <ul>
+            <li>Email: <a href="mailto:rosinasution@gmail.com">rosinasution@gmail.com</a></li>
+            <li>Telepon/WhatsApp: <a href="tel:+6281250681380">0812-5068-1380</a></li>
+            <li>Instagram: <a href="https://instagram.com/melon_premium_28" target="_blank">@melon_premium_28</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Hak Cipta &copy; Minang Melon 2024</p>
+    </footer>
+</body>
+</html>
